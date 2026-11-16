@@ -4,3 +4,4 @@ Public class NFTob {
     private String imageUrl;
     private String owner;
 
+}

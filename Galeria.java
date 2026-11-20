@@ -19,9 +19,13 @@ public class Galeria {
 
 
     }
+    
 
 
 
+public ArrayList<NFTob> getNFTList() {
+        return NFTList;
+    }
 
 
 

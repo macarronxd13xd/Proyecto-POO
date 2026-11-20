@@ -17,6 +17,16 @@ public class Usuario {
         // Cuando el usuario se registra, su colección empieza vacía
         this.misNfts = new ArrayList<>(); 
     }
+    
+// Getters
+    public String getNombre() { return nombre; }
+    public String getApellido() { return apellido; }
+    public String getCorreo() { return correo; }
+    public String getContrasena() { return contraseña; }
+    public ArrayList<NFTob> getMisNfts() { return misNfts; }
 
-
+//Setters
+    public void agregarNft(NFTob nft) {
+        this.misNfts.add(nft);
+    }
 }

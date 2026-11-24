@@ -1,15 +1,15 @@
 import java.util.ArrayList;
 
 public class Galeria {
-    private ArrayList<NFTob> NFTList;
+    private ArrayList<NFTob> NFTList;// transformo la variable NFTList en un ArrayList de objetos NFTob para poder almacenar multiples objetos NFTob en la galeria
     public Galeria(String name) {
         
-        this.NFTList = new ArrayList<>();
+        this.NFTList = new ArrayList<>();// inicializo la variable NFTList como un nuevo ArrayList de objetos NFTob
     }
 
 
 
-    public void nftsgaleria() {
+    public void nftsgaleria() {// metodo que crea los objetos NFTob y los agrega a la lista NFTList de la galeria
         // Crear una instancia de NFTob
         NFTList.add(new NFTob("Bored Ape #1", 100.0, "https://example.com/boredape1.png", "Juan"));
         NFTList.add(new NFTob("CryptoPunk #2", 200.0, "https://example.com/cryptopunk2.png", "Maria"));
@@ -24,7 +24,7 @@ public class Galeria {
 
 
 public ArrayList<NFTob> getNFTList() {
-        return NFTList;
+        return NFTList;// metodo que devuelve la lista de objetos NFTob de la galeria
     }
 
 
